@@ -44,4 +44,8 @@
   <PropertyGroup Condition="'$(APPVEYOR)' == 'True'">
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
 </Project>
